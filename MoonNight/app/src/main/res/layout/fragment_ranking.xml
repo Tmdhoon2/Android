@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3"
+    android:background="#fff"
     android:orientation="vertical"
     android:gravity="center">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="랭킹"
-        android:textColor="@color/black"
-        android:textSize="40sp"/>
+    <ImageView
+        android:id="@+id/one"
+        android:layout_width="391dp"
+        android:layout_height="677dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/one" />
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/two"
+        android:layout_width="315dp"
+        android:layout_height="674dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/two" />
+
+    <ImageView
+        android:id="@+id/three"
+        android:layout_width="301dp"
+        android:layout_height="404dp"
+        android:src="@drawable/three"
+        android:scaleType="fitStart"/>
+
+
+</FrameLayout>

@@ -7,8 +7,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.myapplication.databinding.FragmentHomeBinding
+import com.example.myapplication.databinding.FragmentRankingBinding
 
 class RankingFragment : Fragment(){
+
+    private var mBinding: FragmentRankingBinding? = null
+    private val binding get() = mBinding!!
 
     companion object{
         const val TAG: String = "로그"
@@ -33,7 +38,6 @@ class RankingFragment : Fragment(){
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         Log.d(TAG, "RankingFragment - onCreateView() called")
 
         val view = inflater.inflate(R.layout.fragment_ranking, container, false)
