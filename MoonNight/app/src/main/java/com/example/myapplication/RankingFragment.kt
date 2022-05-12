@@ -12,8 +12,10 @@ import com.example.myapplication.databinding.FragmentRankingBinding
 
 class RankingFragment : Fragment(){
 
-    private var mBinding: FragmentRankingBinding? = null
-    private val binding get() = mBinding!!
+//    private var mBinding: FragmentRankingBinding? = null
+//    private val binding get() = mBinding!!
+
+    private lateinit var binding: FragmentRankingBinding
 
     companion object{
         const val TAG: String = "로그"
