@@ -26,5 +26,13 @@ class MainActivity : AppCompatActivity() {
             // Intent 로 VariableJavaActivity 를 타겟으로 지정하고 startActivity 로 실행
             startActivity(Intent(this@MainActivity, VariableKotlinActivity::class.java))
         }
+        binding.button5.setOnClickListener {
+            // Intent 로 VariableJavaActivity 를 타겟으로 지정하고 startActivity 로 실행
+            startActivity(Intent(this@MainActivity, ControlJavaActivity::class.java))
+        }
+        binding.button6.setOnClickListener {
+            // Intent 로 VariableJavaActivity 를 타겟으로 지정하고 startActivity 로 실행
+            startActivity(Intent(this@MainActivity, ControlKotlinActivity::class.java))
+        }
     }
 }

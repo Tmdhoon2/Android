@@ -10,13 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotllinSample">
         <activity
-            android:name=".VariableKotlinActivity"
-            android:label="VariableKotlin"
+            android:name=".ControlKotlinActivity"
+            android:label="ControlKotlin"
             android:exported="false" />
         <activity
-            android:name=".VariableJavaActivity"
-            android:label="VariableJava"
+            android:name=".ControlJavaActivity"
+            android:label="ControlJava"
             android:exported="false" />
+        <activity
+            android:name=".VariableKotlinActivity"
+            android:exported="false"
+            android:label="VariableKotlin" />
+        <activity
+            android:name=".VariableJavaActivity"
+            android:exported="false"
+            android:label="VariableJava" />
         <activity
             android:name=".JavaActivity"
             android:exported="false"

@@ -38,13 +38,13 @@ public class VariableJavaActivity extends AppCompatActivity {
         setContentView(R.layout.layout_variable);
 
         // 시작 시간을 텍스트 형태로 변환
-        //String timeText = new SimpleDateFormat("HH:mm:ss", Locale.KOREA).format(startTime);
+//        String timeText = new SimpleDateFormat("HH:mm:ss", Locale.KOREA).format(startTime);
 
         // 시작 시간을 TextView 에 보여줌
-        //startTimeLabel.setText("Activity 시작시간: " + timeText);
+//        startTimeLabel.setText("Activity 시작시간: " + timeText);
 
         // 클릭된 횟수 보여줌
-        //clickCountLabel.setText("버튼이 클릭된 횟수: " + clickCount);
+//        clickCountLabel.setText("버튼이 클릭된 횟수: " + clickCount);
 
         // 버튼에 이벤트 리스너 등록
         binding.button.setOnClickListener(new View.OnClickListener() {
