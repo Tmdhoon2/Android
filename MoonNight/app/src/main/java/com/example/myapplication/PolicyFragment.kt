@@ -5,16 +5,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.myapplication.databinding.FragmentHomeBinding
+import com.example.myapplication.databinding.FragmentPolicyBinding
 
-class   HomeFragment : Fragment(){
+class PolicyFragment : Fragment(){
     companion object{
-        fun newInstatnce() : HomeFragment {
-            return HomeFragment()
+        fun newInstance() : PolicyFragment {
+            return PolicyFragment()
         }
     }
 
-    private lateinit var binding: FragmentHomeBinding
+    private lateinit var binding: FragmentPolicyBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -22,11 +22,10 @@ class   HomeFragment : Fragment(){
         savedInstanceState: Bundle?
     ): View? {
 
-        binding = FragmentHomeBinding.inflate(layoutInflater)
+        binding = FragmentPolicyBinding.inflate(layoutInflater)
 
-        val view = inflater.inflate(R.layout.fragment_home, container, false)
+        val view = inflater.inflate(R.layout.fragment_policy, container, false)
 
         return view
     }
-
 }

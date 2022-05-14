@@ -6,6 +6,7 @@
     android:layout_height="match_parent">
 
     <EditText
+        android:id="@+id/numberField"
         android:layout_width="191dp"
         android:layout_height="43dp"
         android:hint="숫자를 입력하세요"
@@ -17,10 +18,14 @@
         app:layout_constraintVertical_bias="0.046" />
 
     <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="116dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="실행"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
