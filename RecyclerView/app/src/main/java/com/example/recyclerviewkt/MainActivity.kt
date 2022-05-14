@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             Profiles(R.drawable.woman, "유나현", 10, "정보보안"),
             Profiles(R.drawable.profile, "유현담", 11, "게임 개발"),
             Profiles(R.drawable.woman, "윤정민", 12, "프론트엔드"),
-            Profiles(R.drawable.seunghoon, "정승훈", 13, "안드로이드"),
+            Profiles(R.drawable.profile, "정승훈", 13, "안드로이드"),
             Profiles(R.drawable.profile, "정지관", 14, "프론트엔드"),
             Profiles(R.drawable.profile, "조문성", 15, "정보보안"),
             Profiles(R.drawable.woman, "최하은", 16, "안드로이드"),
