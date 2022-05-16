@@ -2,6 +2,7 @@ package com.example.bottomnavigationviewkotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.ViewGroup
 import com.example.bottomnavigationviewkotlin.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.bottomNav.setOnNavigationItemSelectedListener(onBottomNavigationSelectedListener)
+        binding.bottomNav.setOnItemSelectedListener(onBottomNavigationSelectedListener)
     }
 
     private val onBottomNavigationSelectedListener = BottomNavigationView.OnNavigationItemReselectedListener{
@@ -43,4 +44,3 @@ class MainActivity : AppCompatActivity() {
         true
     }
 }
-

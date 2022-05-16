@@ -24,8 +24,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        Log.d(TAG, "MainActivity -onCreate() called")
-
         binding.bottomNav.setOnNavigationItemSelectedListener(onBottomNavigationSelectedListener)
     }
 

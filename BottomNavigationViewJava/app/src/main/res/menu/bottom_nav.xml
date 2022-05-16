@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_restaurant"
+        android:title="급식"
+        android:icon="@drawable/ic_baseline_restaurant_24"/>
+    <item
+        android:id="@+id/menu_check"
+        android:title="신청"
+        android:icon="@drawable/ic_baseline_check_24"/>
+    <item
+        android:id="@+id/menu_notify"
+        android:title="공지"
+        android:icon="@drawable/ic_baseline_notifications_24"/>
+    <item
+        android:id="@+id/mneu_mypage"
+        android:title="마이페이지"
+        android:icon="@drawable/ic_baseline_person_24"/>
+
+</menu>

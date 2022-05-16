@@ -3,7 +3,7 @@
 
     <item
         android:id="@+id/menu_meal"
-        android:icon="@drawable/ic_baseline_no_meals_24"
+        android:icon="@drawable/ic_baseline_restaurant_24"
         android:title="급식"/>
     <item
         android:id="@+id/menu_apply"
