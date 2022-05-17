@@ -27,6 +27,12 @@ class MainActivity : AppCompatActivity() {
         binding.bottomNav.setOnNavigationItemSelectedListener(onBottomNavigationSelectedListener)
     }
 
+    override fun onResume() {
+        super.onResume()
+        supportFragmentManager.beginTransaction().replace(R.id.fragments_frame, HomeFragment())
+            .commit()
+    }
+
     private val onBottomNavigationSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener {
 
         when(it.itemId){
