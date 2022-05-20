@@ -31,12 +31,6 @@ class MainActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction().replace(R.id.fragments_frame, MealFragment())
             .commit()
     }
-
-    override fun onPause() {
-        super.onPause()
-        supportFragmentManager.beginTransaction().replace(R.id.fragments_frame, ApplyFragment())
-            .commit()
-    }
     private val onBottomNavigationSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.menu_meal -> {
