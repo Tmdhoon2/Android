@@ -7,18 +7,18 @@ import android.os.Bundle
 import android.os.Handler
 import android.widget.SeekBar
 import android.widget.Toast
-import com.example.mediaplayerexample.databinding.ActivityMainBinding
+import com.example.mediaplayerexample.databinding.ActivityMediaplayerBinding
 
-class MainActivity : AppCompatActivity() {
+class MediaPlayerActivity : AppCompatActivity() {
 
     private lateinit var runnable: Runnable
     private var handler = Handler()
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityMediaplayerBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityMediaplayerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val mediaPlayer = MediaPlayer.create(this, R.raw.wakeup)
