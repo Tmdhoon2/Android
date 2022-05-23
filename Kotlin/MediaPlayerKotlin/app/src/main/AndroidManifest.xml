@@ -12,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
         <activity
-            android:name=".MediaPlayerActivity"
+            android:name=".RecyclerView"
             android:exported="false" />
         <activity
-            android:name=".RecyclerView"
+            android:name=".MediaPlayerActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
