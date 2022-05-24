@@ -2,6 +2,7 @@ package com.example.mediaplayerexample
 
 import android.graphics.Color
 import android.graphics.drawable.Animatable
+import android.media.AudioManager
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -25,59 +26,66 @@ class MediaPlayerActivity : AppCompatActivity() {
         binding = ActivityMediaplayerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //val animation = AnimationUtils.loadAnimation(this,R.anim.rotate_anim)
+        val urle = arrayOf("https://drive.google.com/file/d/1oi1zC3HbXm7v3OLneiGplyPG3iQBWhEz/view?usp=sharing")
 
-        val playlist = arrayOf(
-            R.raw.wakeup,
-            R.raw.thinkaboutyou)
-        val title = arrayOf(
+
+//        val playlist = arrayOf(                                                                                        // 곡
+//            R.raw.wakeup,
+//            R.raw.thinkaboutyou)
+
+        val title = arrayOf(                                                                                           // 노래 제목
             "Wake Up (Prod. 코드 쿤스트)",
             "너를 생각해",
             "다정히 내 이름을 부르면",
             "언제나 사랑해",
             "나의 X에게",
             "정이라고 하자 (Feat. 10CM)",)
-        val singer = arrayOf(
+
+        val singer = arrayOf(                                                                                          // 가수
             "개코, 아우릴고트, SINCE, 안병웅, Tabber, 조광일",
             "주시크 (Joosiq)",
             "경서예지 X 전건호",
             "케이시",)
-        var i = 0
-        val url = arrayOf("https://cdn.kgasa.com/wp-content/uploads/2021/11/Show-Me-the-Money-10-EP-1.jpg",
-                            "https://image.bugsm.co.kr/album/images/200/40650/4065044.jpg?version=20211216023014.0")
-        var mediaPlayer = MediaPlayer.create(this,playlist[i])
-        binding.title.setText(title[i])
-        binding.singer.setText(singer[i])
 
-        Glide.with(this)
-            .load(url[i])
+        val cover = arrayOf("https://cdn.kgasa.com/wp-content/uploads/2021/11/Show-Me-the-Money-10-EP-1.jpg",
+                            "https://image.bugsm.co.kr/album/images/200/40650/4065044.jpg?version=20211216023014.0",)  // 앨범
+
+        var i = 0                                                                                                      // 리스트 변수
+
+        //var mediaPlayer = MediaPlayer.create(this,playlist[i])                                                       // 미디어플레이어 생성
+        var mediaPlayer:MediaPlayer = MediaPlayer().apply {
+            setAudioStreamType(AudioManager.STREAM_MUSIC)
+            setDataSource("https://drive.google.com/file/d/1oi1zC3HbXm7v3OLneiGplyPG3iQBWhEz/view?usp=sharing")
+            prepare()
+            start()
+        }
+        binding.title.setText(title[i])                                                                                // 제목 setText
+        binding.singer.setText(singer[i])                                                                              // 가수 setText
+
+        Glide.with(this)                                                                                        // 이미지 불러오기
+            .load(cover[i])
             .into(binding.cover)
 
-        binding.seekbar.progress = 0
-        binding.seekbar.max = mediaPlayer.duration
+        binding.seekbar.progress = 0                                                                                  // seekbar 시작점 설정
+        binding.seekbar.max = mediaPlayer.duration                                                                    // seekbar 끝지점 설정
 
-        binding.playbutton.setOnClickListener {
-            if(!mediaPlayer.isPlaying){
+        binding.playbutton.setOnClickListener {                                                                       // playbutton 클릭시
+            if(!mediaPlayer.isPlaying){                                                                               // 미디어플레이어 시작
                 mediaPlayer.start()
-                binding.playbutton.setBackgroundResource(R.drawable.ic_baseline_pause_24)
-                //binding.cardView2.startAnimation(animation)
+                binding.playbutton.setBackgroundResource(R.drawable.ic_baseline_pause_24)                             // backgroundresource
             }
             else{
-                mediaPlayer.pause()
+                mediaPlayer.pause()                                                                                   // 음악 정지
                 binding.playbutton.setBackgroundResource(R.drawable.ic_baseline_play_arrow_24)
             }
         }
         binding.loopbutton.setOnClickListener {
-            //mediaPlayer.setLooping(true)
-            //mediaPlayer.start()
-            if(!mediaPlayer.isLooping){
-
-                mediaPlayer.setLooping(true)
-                Toast.makeText(this,"현재 곡을 반복재생 합니다", 500).show()
-                binding.loopbutton.setBackgroundResource(R.drawable.ic_baseline_shuffle_24)
+            if(!mediaPlayer.isLooping){                                                                               // 루핑 비활성화시
+                mediaPlayer.setLooping(true)                                                                          // 루핑 활성화
+                Toast.makeText(this,"현재 곡을 반복재생 합니다", 500).show()                           // 토스트 메시지
+                binding.loopbutton.setBackgroundResource(R.drawable.ic_baseline_shuffle_24)                           // backgroundresource
             }
             else{
-
                 mediaPlayer.setLooping(false)
                 Toast.makeText(this, "반복재생을 해제 합니다", 500).show()
                 binding.loopbutton.setBackgroundResource(R.drawable.ic_baseline_shufflegray_24)
@@ -88,12 +96,12 @@ class MediaPlayerActivity : AppCompatActivity() {
             if(mediaPlayer.isPlaying){
                 mediaPlayer.stop()
             }
-            mediaPlayer = MediaPlayer.create(this,playlist[i])
+            //mediaPlayer = MediaPlayer.create(this,playlist[i])
             binding.playbutton.setBackgroundResource(R.drawable.ic_baseline_pause_24)
             binding.title.setText(title[i])
             binding.singer.setText(singer[i])
             Glide.with(this)
-                .load(url[i])
+                .load(cover[i])
                 .into(binding.cover)
             mediaPlayer.start()
         }
@@ -103,11 +111,13 @@ class MediaPlayerActivity : AppCompatActivity() {
             if(mediaPlayer.isPlaying){
                 mediaPlayer.stop()
             }
-            mediaPlayer = MediaPlayer.create(this,playlist[i])
+            //mediaPlayer = MediaPlayer.create(this,playlist[i])
             binding.playbutton.setBackgroundResource(R.drawable.ic_baseline_pause_24)
-            binding.cover.setBackgroundResource(albumcover[i])
             binding.title.setText(title[i])
             binding.singer.setText(singer[i])
+            Glide.with(this)
+                .load(cover[i])
+                .into(binding.cover)
             mediaPlayer.start()
         }
 
