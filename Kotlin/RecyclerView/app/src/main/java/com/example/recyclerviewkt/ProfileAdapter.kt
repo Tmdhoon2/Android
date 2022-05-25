@@ -1,14 +1,14 @@
 package com.example.recyclerviewkt
 
-import android.text.Layout
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
-import android.widget.Toast
-import androidx.recyclerview.widget.RecyclerView
-import org.w3c.dom.Text
+    import android.text.Layout
+    import android.view.LayoutInflater
+    import android.view.View
+    import android.view.ViewGroup
+    import android.widget.ImageView
+    import android.widget.TextView
+    import android.widget.Toast
+    import androidx.recyclerview.widget.RecyclerView
+    import org.w3c.dom.Text
 
 class ProfileAdapter(val profileList : ArrayList<Profiles>) : RecyclerView.Adapter<ProfileAdapter.CustomViewHolder>() {
 
@@ -19,7 +19,7 @@ class ProfileAdapter(val profileList : ArrayList<Profiles>) : RecyclerView.Adapt
             itemView.setOnClickListener {
                 val curPos : Int = adapterPosition
                 val profile : Profiles = profileList.get(curPos)
-                Toast.makeText(parent.context, "이름 : ${profile.name}\n나이 : ${profile.age}\n직업 : ${profile.job}", Toast.LENGTH_SHORT). show()
+                Toast.makeText(parent.context, "이름 : ${profile.name}\n학번 : ${profile.age}\n직업 : ${profile.job}", Toast.LENGTH_SHORT). show()
 
             }
 

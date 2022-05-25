@@ -15,7 +15,7 @@ open class Human constructor(val name : String = "Anonymous"){
         println("This is so YUMMYYYY~~~~")
     }
 
-    fun singASong(){
+    open fun singASong(){
         println("lalala")
     }
 }
@@ -30,6 +30,5 @@ class Korean : Human(){
 
 
 fun main(){
-val korean = Korean()
-    korean.singASong()
+    var playList = arrayOf(1,2)
 }

@@ -26,12 +26,9 @@ class MediaPlayerActivity : AppCompatActivity() {
         binding = ActivityMediaplayerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val urle = arrayOf("https://drive.google.com/file/d/1oi1zC3HbXm7v3OLneiGplyPG3iQBWhEz/view?usp=sharing")
-
-
-//        val playlist = arrayOf(                                                                                        // 곡
-//            R.raw.wakeup,
-//            R.raw.thinkaboutyou)
+        val playlist = arrayOf(                                                                                        // 곡
+            R.raw.wakeup,
+            R.raw.thinkaboutyou)
 
         val title = arrayOf(                                                                                           // 노래 제목
             "Wake Up (Prod. 코드 쿤스트)",
@@ -52,13 +49,8 @@ class MediaPlayerActivity : AppCompatActivity() {
 
         var i = 0                                                                                                      // 리스트 변수
 
-        //var mediaPlayer = MediaPlayer.create(this,playlist[i])                                                       // 미디어플레이어 생성
-        var mediaPlayer:MediaPlayer = MediaPlayer().apply {
-            setAudioStreamType(AudioManager.STREAM_MUSIC)
-            setDataSource("https://drive.google.com/file/d/1oi1zC3HbXm7v3OLneiGplyPG3iQBWhEz/view?usp=sharing")
-            prepare()
-            start()
-        }
+        var mediaPlayer = MediaPlayer.create(this,playlist[i])                                                       // 미디어플레이어 생성
+
         binding.title.setText(title[i])                                                                                // 제목 setText
         binding.singer.setText(singer[i])                                                                              // 가수 setText
 
@@ -96,7 +88,7 @@ class MediaPlayerActivity : AppCompatActivity() {
             if(mediaPlayer.isPlaying){
                 mediaPlayer.stop()
             }
-            //mediaPlayer = MediaPlayer.create(this,playlist[i])
+            mediaPlayer = MediaPlayer.create(this,playlist[i])
             binding.playbutton.setBackgroundResource(R.drawable.ic_baseline_pause_24)
             binding.title.setText(title[i])
             binding.singer.setText(singer[i])
@@ -104,6 +96,9 @@ class MediaPlayerActivity : AppCompatActivity() {
                 .load(cover[i])
                 .into(binding.cover)
             mediaPlayer.start()
+            binding.seekbar.progress = 0
+            binding.seekbar.max = mediaPlayer.duration
+
         }
 
         binding.previousbutton.setOnClickListener {
@@ -111,7 +106,7 @@ class MediaPlayerActivity : AppCompatActivity() {
             if(mediaPlayer.isPlaying){
                 mediaPlayer.stop()
             }
-            //mediaPlayer = MediaPlayer.create(this,playlist[i])
+            mediaPlayer = MediaPlayer.create(this,playlist[i])
             binding.playbutton.setBackgroundResource(R.drawable.ic_baseline_pause_24)
             binding.title.setText(title[i])
             binding.singer.setText(singer[i])
@@ -119,6 +114,8 @@ class MediaPlayerActivity : AppCompatActivity() {
                 .load(cover[i])
                 .into(binding.cover)
             mediaPlayer.start()
+            binding.seekbar.progress = 0
+            binding.seekbar.max = mediaPlayer.duration
         }
 
 
