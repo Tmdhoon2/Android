@@ -28,7 +28,11 @@ class MediaPlayerActivity : AppCompatActivity() {
 
         val playlist = arrayOf(                                                                                        // 곡
             R.raw.wakeup,
-            R.raw.thinkaboutyou)
+            R.raw.thinkaboutyou,
+            R.raw.myname,
+            R.raw.alwayslove,
+            R.raw.myx,
+            R.raw.jung)
 
         val title = arrayOf(                                                                                           // 노래 제목
             "Wake Up (Prod. 코드 쿤스트)",
@@ -42,10 +46,16 @@ class MediaPlayerActivity : AppCompatActivity() {
             "개코, 아우릴고트, SINCE, 안병웅, Tabber, 조광일",
             "주시크 (Joosiq)",
             "경서예지 X 전건호",
-            "케이시",)
+            "케이시",
+        "경서",
+        "Big nauthy (서동현)")
 
         val cover = arrayOf("https://cdn.kgasa.com/wp-content/uploads/2021/11/Show-Me-the-Money-10-EP-1.jpg",
-                            "https://image.bugsm.co.kr/album/images/200/40650/4065044.jpg?version=20211216023014.0",)  // 앨범
+                            "https://image.bugsm.co.kr/album/images/200/40650/4065044.jpg?version=20211216023014.0",
+        "http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/051/769/82051769_1621328428038_1_600x600.JPG",
+        "https://image.bugsm.co.kr/album/images/200/40708/4070887.jpg?version=20220208063659.0",
+        "http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/651/870/82651870_1650613662156_1_600x600.JPG",
+        "http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/645/633/82645633_1650352944627_1_600x600.JPG")  // 앨범
 
         var i = 0                                                                                                      // 리스트 변수
 
