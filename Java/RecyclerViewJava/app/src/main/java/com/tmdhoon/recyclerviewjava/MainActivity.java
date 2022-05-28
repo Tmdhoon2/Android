@@ -12,7 +12,9 @@ import android.widget.LinearLayout;
 import com.tmdhoon.recyclerviewjava.databinding.ActivityMainBinding;
 import com.tmdhoon.recyclerviewjava.databinding.ListItemBinding;
 
+import java.sql.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,18 +34,16 @@ public class MainActivity extends AppCompatActivity {
         linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
 
-        arrayList = new ArrayList<>();
-
+        ArrayList<String> name = new ArrayList<>(Arrays.asList("DMS"));
+        ArrayList<String> title = new ArrayList<>(Arrays.asList("리사이클러뷰"));
 
         mainAdapter = new MainAdapter(arrayList);
         recyclerView.setAdapter(mainAdapter);
-
-        int i = 0;
-
-        binding.btnAdd.setOnClickListener(new View.OnClickListener(){
+        binding.btnAdd.setOnClickListener(new View.OnClickListener
+(){
             @Override
             public void onClick(View view) {
-                MainData mainData = new MainData(R.drawable.ic_launcher_background, "DMS 안드로이드 화이팅","리사이클러뷰 연습중");
+                MainData mainData = new MainData(R.drawable.ic_launcher_foreground, "DMS 화이팅", "리사이클러뷰");
                 arrayList.add(mainData);
                 mainAdapter.notifyDataSetChanged();
 

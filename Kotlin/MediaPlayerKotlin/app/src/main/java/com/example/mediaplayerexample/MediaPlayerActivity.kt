@@ -55,11 +55,11 @@ class MediaPlayerActivity : AppCompatActivity() {
         "http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/051/769/82051769_1621328428038_1_600x600.JPG",
         "https://image.bugsm.co.kr/album/images/200/40708/4070887.jpg?version=20220208063659.0",
         "http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/651/870/82651870_1650613662156_1_600x600.JPG",
-        "http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/645/633/82645633_1650352944627_1_600x600.JPG")  // 앨범
+        "http://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/082/645/633/82645633_1650352944627_1_600x600.JPG")                 // 앨범
 
         var i = 0                                                                                                      // 리스트 변수
 
-        var mediaPlayer = MediaPlayer.create(this,playlist[i])                                                       // 미디어플레이어 생성
+        var mediaPlayer = MediaPlayer.create(this,playlist[i])                                                  // 미디어플레이어 생성
 
         binding.title.setText(title[i])                                                                                // 제목 setText
         binding.singer.setText(singer[i])                                                                              // 가수 setText
@@ -72,7 +72,8 @@ class MediaPlayerActivity : AppCompatActivity() {
         binding.seekbar.max = mediaPlayer.duration                                                                    // seekbar 끝지점 설정
 
         binding.playbutton.setOnClickListener {                                                                       // playbutton 클릭시
-            if(!mediaPlayer.isPlaying){                                                                               // 미디어플레이어 시작
+            if(!mediaPlayer.isPlaying){                                                                                // 미디어플레이어 시작
+                mediaPlayer = MediaPlayer.create(this, playlist[i])
                 mediaPlayer.start()
                 binding.playbutton.setBackgroundResource(R.drawable.ic_baseline_pause_24)                             // backgroundresource
             }
@@ -152,7 +153,19 @@ class MediaPlayerActivity : AppCompatActivity() {
         handler.postDelayed(runnable, 1000)
 
         mediaPlayer.setOnCompletionListener {
-            mediaPlayer.pause()
+            i++
+            if(!mediaPlayer.isLooping){
+                mediaPlayer = MediaPlayer.create(this,playlist[i])
+                binding.title.setText(title[i])
+                binding.singer.setText(singer[i])
+                Glide.with(this)
+                    .load(cover[i])
+                    .into(binding.cover)
+                mediaPlayer.start()
+                binding.seekbar.progress = 0
+                binding.seekbar.max = mediaPlayer.duration
+            }
+            mediaPlayer.start()
             binding.playbutton.setBackgroundResource(R.drawable.ic_baseline_pause_24)
         }
     }
