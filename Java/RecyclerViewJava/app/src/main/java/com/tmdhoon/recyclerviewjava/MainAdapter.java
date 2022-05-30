@@ -17,9 +17,7 @@ import java.util.ArrayList;
 public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHolder>{
 
     private ListItemBinding binding;
-
     private ArrayList<MainData> arrayList;
-
     public MainAdapter(ArrayList<MainData> arrayList) {
         this.arrayList = arrayList;
     }
@@ -39,7 +37,6 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHold
     public void onBindViewHolder(@NonNull CustomViewHolder holder, int position) {
         holder.iv_profile.setImageResource(arrayList.get(position).getIv_profile());
         holder.tv_name.setText(arrayList.get(position).getTv_name());
-        holder.tv_content.setText(arrayList.get(position).getTv_content());
 
         holder.itemView.setTag(position);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -77,14 +74,12 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHold
 
         protected ImageView iv_profile;
         protected TextView tv_name;
-        protected TextView tv_content;
 
 
         public CustomViewHolder(@NonNull View itemView) {
             super(itemView);
             this.iv_profile = (ImageView) itemView.findViewById(R.id.iv_profile);
             this.tv_name = (TextView) itemView.findViewById(R.id.tv_name);
-            this.tv_content = (TextView) itemView.findViewById(R.id.tv_content);
         }
     }
 }

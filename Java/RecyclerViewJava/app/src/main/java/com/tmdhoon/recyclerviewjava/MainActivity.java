@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 
 import com.tmdhoon.recyclerviewjava.databinding.ActivityMainBinding;
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private LinearLayoutManager linearLayoutManager;
     private ActivityMainBinding binding;
+    private EditText editText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,16 +36,15 @@ public class MainActivity extends AppCompatActivity {
         linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
 
-        ArrayList<String> name = new ArrayList<>(Arrays.asList("DMS"));
-        ArrayList<String> title = new ArrayList<>(Arrays.asList("리사이클러뷰"));
+        arrayList = new ArrayList<>();
 
         mainAdapter = new MainAdapter(arrayList);
         recyclerView.setAdapter(mainAdapter);
-        binding.btnAdd.setOnClickListener(new View.OnClickListener
-(){
+        EditText editText = (EditText)findViewById(R.id.edittext);
+        binding.btnAdd.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                MainData mainData = new MainData(R.drawable.ic_launcher_foreground, "DMS 화이팅", "리사이클러뷰");
+                MainData mainData = new MainData(R.drawable.ic_baseline_dehaze_24, editText.getText());
                 arrayList.add(mainData);
                 mainAdapter.notifyDataSetChanged();
 
