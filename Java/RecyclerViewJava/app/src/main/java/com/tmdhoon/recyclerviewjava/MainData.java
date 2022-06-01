@@ -7,7 +7,6 @@ public class MainData{
 
     private int iv_profile;
     private Editable tv_name;
-    private String tv_content;
 
     public MainData(int iv_profile, Editable tv_name) {
         this.iv_profile = iv_profile;

@@ -14,17 +14,17 @@ import com.tmdhoon.recyclerviewjava.databinding.ListItemBinding;
 
 import java.util.ArrayList;
 
-public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHolder>{
+public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHolder>{                                    // Adapter
 
-    private ListItemBinding binding;
-    private ArrayList<MainData> arrayList;
+    private ListItemBinding binding;                                                                                    // Binding
+    private ArrayList<MainData> arrayList;                                                                              // Itemlist
     public MainAdapter(ArrayList<MainData> arrayList) {
         this.arrayList = arrayList;
     }
 
     @NonNull
     @Override
-    public CustomViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public CustomViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {                               // ViewHolder
 
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item,parent,false);
         CustomViewHolder holder = new CustomViewHolder(view);
@@ -35,11 +35,13 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHold
 
     @Override
     public void onBindViewHolder(@NonNull CustomViewHolder holder, int position) {
+
         holder.iv_profile.setImageResource(arrayList.get(position).getIv_profile());
         holder.tv_name.setText(arrayList.get(position).getTv_name());
 
         holder.itemView.setTag(position);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 String curName = holder.tv_name.getText().toString();
@@ -48,6 +50,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHold
         });
 
         holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
+
             @Override
             public boolean onLongClick(View view) {
                 remove(holder.getAdapterPosition());
