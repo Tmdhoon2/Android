@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     TextView text;
     XmlPullParser xpp;
 
-    String key = "iqtjLS3HEpGtUS15TyOeiyDbdsV+iOqnGLT25kLmdybcppa7YL7Fw5wMoqougDkXqSrqTbXYi3I4Vb8E4iXvyw=="; // 서비스 키
+    String key = ""; // 서비스 키
     String data;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         String location = URLEncoder.encode(str);
         String query = "%EC%A0%84%EB%A0%A5%EB%A1%9C";
 
-        String queryUrl = "http://openapi.kepco.co.kr/service/EvInfoServiceV2/getEvSearchList?addr="+location+"&pageNo=1&numOfRows=10&ServiceKey=iqtjLS3HEpGtUS15TyOeiyDbdsV+iOqnGLT25kLmdybcppa7YL7Fw5wMoqougDkXqSrqTbXYi3I4Vb8E4iXvyw=="; // 서비스 키
+        String queryUrl = "http://openapi.kepco.co.kr/service/EvInfoServiceV2/getEvSearchList?addr="+location+"&pageNo=1&numOfRows=10&ServiceKey="; // 서비스 키
         try{
             URL url = new URL(queryUrl);
             InputStream is = url.openStream();
