@@ -37,9 +37,9 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
         Glide.with(holder.itemView)
                 .load(arrayList.get(position).getProfile())
                 .into(holder.iv_profile);
-        holder.tv_id.setText(String.valueOf(arrayList.get(position).getId()));
+        holder.tv_id.setText(arrayList.get(position).getId());
         holder.tv_pw.setText(String.valueOf(arrayList.get(position).getPw()));
-        holder.tv_userName.setText(String.valueOf(arrayList.get(position).getUserName()));
+        holder.tv_userName.setText(arrayList.get(position).getUserName());
     }
 
     @Override
