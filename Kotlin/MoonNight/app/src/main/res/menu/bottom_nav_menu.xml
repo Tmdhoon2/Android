@@ -14,5 +14,6 @@
         android:icon="@drawable/ic_baseline_person_24"/>
     <item
         android:id="@+id/menu_policy"
-        android:title="Policy"/>
+        android:title="Policy"
+        android:icon="@drawable/ic_baseline_filter_frames_24"/>
 </menu>
