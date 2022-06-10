@@ -10,7 +10,7 @@ package com.example.recyclerviewkt
     import androidx.recyclerview.widget.RecyclerView
     import org.w3c.dom.Text
 
-class ProfileAdapter(val profileList : ArrayList<Profiles>) : RecyclerView.Adapter<ProfileAdapter.CustomViewHolder>() {
+class ProfileAdapter(val profileList : ArrayList<Profiles>) : RecyclerView.Adapter<ProfileAdapter.CustomViewHolder>() {                                     // Main Adpater
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProfileAdapter.CustomViewHolder {
