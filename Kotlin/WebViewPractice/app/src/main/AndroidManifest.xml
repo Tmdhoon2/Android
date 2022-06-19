@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tmdhoon.webviewpractice">
+    package="com.tmdhoon.webviewpractice" >
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -10,10 +10,15 @@
         android:label="마인페이지"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.WebViewPractice">
+        android:theme="@style/Theme.WebViewPractice" >
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="false"
+            android:theme="@style/Theme.WebViewPractice.Splash"/>
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.WebViewPractice.Splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
