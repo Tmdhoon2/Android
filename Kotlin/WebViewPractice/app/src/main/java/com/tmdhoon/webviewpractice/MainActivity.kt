@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val myWebView: WebView = findViewById(R.id.wv)                     // webview 연결
-        myWebView.settings.javaScriptEnabled = true
+        myWebView.settings.javaScriptEnabled = true                        // 자바스크립트 활성화
         myWebView.addJavascriptInterface(WebAppInterface(this), "Android")
 
 
