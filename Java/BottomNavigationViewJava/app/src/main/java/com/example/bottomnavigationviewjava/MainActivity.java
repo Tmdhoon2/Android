@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.menu_notify:
                         transaction.replace(R.id.frameLayout, notifyFragment).commitAllowingStateLoss();
                         break;
-                    case R.id.mneu_mypage:
+                    case R.id.menu_mypage:
                         transaction.replace(R.id.frameLayout, mypageFragment).commitAllowingStateLoss();
                         break;
 
