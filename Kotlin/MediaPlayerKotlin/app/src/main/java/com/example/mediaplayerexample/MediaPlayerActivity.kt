@@ -47,8 +47,8 @@ class MediaPlayerActivity : AppCompatActivity() {
             "주시크 (Joosiq)",
             "경서예지 X 전건호",
             "케이시",
-        "경서",
-        "Big nauthy (서동현)")
+            "경서",
+            "Big nauthy (서동현)")
 
         val cover = arrayOf("https://cdn.kgasa.com/wp-content/uploads/2021/11/Show-Me-the-Money-10-EP-1.jpg",
                             "https://image.bugsm.co.kr/album/images/200/40650/4065044.jpg?version=20211216023014.0",
@@ -96,6 +96,7 @@ class MediaPlayerActivity : AppCompatActivity() {
         }
         binding.nextbutton.setOnClickListener {
             i++
+            var k = 0
             if(mediaPlayer.isPlaying){
                 mediaPlayer.stop()
             }
