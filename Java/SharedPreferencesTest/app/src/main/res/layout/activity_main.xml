@@ -58,4 +58,14 @@
         app:layout_constraintLeft_toLeftOf="@id/tvId"
         app:layout_constraintRight_toRightOf="@id/tvId"/>
 
+    <Button
+        android:id="@+id/btPop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알람"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="@id/tvPw"
+        app:layout_constraintRight_toRightOf="@id/tvPw"
+        app:layout_constraintTop_toBottomOf="@id/tvPw"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
