@@ -4,6 +4,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -44,11 +45,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                editor.putString("Id", etId.getText().toString()).commit();
-                editor.putString("Pw", etPw.getText().toString()).commit();
+                int i = 5;
+                int c = 1;
 
-                tvId.setText(preferences.getString("Id", ""));
-                tvPw.setText(preferences.getString("Pw", ""));
+                editor.putString("Id" + i, etId.getText().toString()).commit();
+                editor.putString("Pw" + c, etPw.getText().toString()).commit();
+
+                tvId.setText(preferences.getString("Id" + i, ""));
+                tvPw.setText(preferences.getString("Pw" + c, ""));
             }
         });
 
@@ -64,7 +68,6 @@ public class MainActivity extends AppCompatActivity {
                 builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Toast.makeText(MainActivity.this, "Yes", Toast.LENGTH_SHORT).show();
                     }
                 });
                 
