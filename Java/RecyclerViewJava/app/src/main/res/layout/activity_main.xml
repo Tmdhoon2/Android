@@ -7,24 +7,24 @@
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv"
+        android:id="@+id/recyclerview"
         android:layout_width="match_parent"
-        android:layout_height="613dp"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:scrollbarFadeDuration="0"
         android:scrollbarSize="5dp"
         android:scrollbarThumbVertical="@android:color/darker_gray"
         android:scrollbars="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/btn_add"
+        app:layout_constraintBottom_toTopOf="@+id/btAdd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edittext">
+        app:layout_constraintTop_toBottomOf="@+id/etInput">
 
     </androidx.recyclerview.widget.RecyclerView>
 
     <EditText
-        android:id="@+id/edittext"
+        android:id="@+id/etInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +33,7 @@
 
 
     <Button
-        android:id="@+id/btn_add"
+        android:id="@+id/btAdd"
         android:layout_width="match_parent"
         android:layout_height="57dp"
         android:background="@drawable/radius"
