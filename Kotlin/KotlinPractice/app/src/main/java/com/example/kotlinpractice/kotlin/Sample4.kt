@@ -1,10 +1,10 @@
-package com.example.kotlinpractice
+package com.example.kotlinpractice.kotlin
 
 
 // Singleton Pattern
 object CarFactory {
     val cars = mutableListOf<Car>()
-    fun makeCar(horsePower : Int) : Car{
+    fun makeCar(horsePower : Int) : Car {
         val car = Car(horsePower)
         cars.add(car)
         return car

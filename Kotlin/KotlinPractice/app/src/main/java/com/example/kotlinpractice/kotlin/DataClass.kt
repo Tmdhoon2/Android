@@ -1,4 +1,4 @@
-package com.example.kotlinpractice
+package com.example.kotlinpractice.kotlin
 
 data class Ticket(val compnayName : String, val name : String, var date : String, var seatNumber : Int)
 // toString(), hashCode(), equals(), copy()
