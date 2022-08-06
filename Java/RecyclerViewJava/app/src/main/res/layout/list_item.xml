@@ -18,14 +18,14 @@
 
 
         <ImageView
-            android:id="@+id/iv_profile"
+            android:id="@+id/imageview"
             android:layout_width="58dp"
             android:layout_height="69dp"
             android:backgroundTint="#FFEB3B"
             android:src="@drawable/ic_baseline_dehaze_24" />
 
         <TextView
-            android:id="@+id/tv_name"
+            android:id="@+id/tvContent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="김은오군"

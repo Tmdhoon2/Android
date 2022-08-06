@@ -13,12 +13,30 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.tmdhoon.recyclerviewjava.databinding.ListItemBinding;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHolder>{                                    // Adapter
+public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHolder>{
 
+<<<<<<< HEAD
     private ArrayList<MainData> arrayList;                                                                              // Itemlist
     public MainAdapter(ArrayList<MainData> arrayList) {
         this.arrayList = arrayList;
+=======
+    private List<MainData> list;
+
+    public MainAdapter(List<MainData> list) {
+        this.list = list;
+    }
+
+    public class CustomViewHolder extends RecyclerView.ViewHolder {
+
+       public TextView tvContent;
+
+        public CustomViewHolder(@NonNull View itemView) {
+            super(itemView);
+            tvContent = itemView.findViewById(R.id.tvContent);
+        }
+>>>>>>> main
     }
 
     @NonNull
@@ -26,15 +44,14 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHold
     public CustomViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {                               // ViewHolder
 
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item,parent,false);
-        CustomViewHolder holder = new CustomViewHolder(view);
 
-
-        return holder;
+        return new CustomViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull CustomViewHolder holder, int position) {
 
+<<<<<<< HEAD
         holder.iv_profile.setImageResource(arrayList.get(position).getIv_profile());
         holder.tv_name.setText(arrayList.get(position).getTv_name());
 
@@ -47,12 +64,16 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHold
                 Toast.makeText(view.getContext(), curName, Toast.LENGTH_SHORT).show();
             }
         });
+=======
+        holder.tvContent.setText(list.get(position).getContent());
+>>>>>>> main
 
         holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
 
             @Override
             public boolean onLongClick(View view) {
-                remove(holder.getAdapterPosition());
+                list.remove(position);
+                notifyItemRemoved(position);
                 return true;
             }
         });
@@ -60,28 +81,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHold
 
     @Override
     public int getItemCount() {
-        return (null !=arrayList? arrayList.size() : 0);
+        return list.size();
     }
 
-    public void remove(int position){
-        try{
-            arrayList.remove(position);
-            notifyItemRemoved(position);
-        } catch(IndexOutOfBoundsException ex){
-            ex.printStackTrace();
-        }
-    }
-
-    public class CustomViewHolder extends RecyclerView.ViewHolder {
-
-        protected ImageView iv_profile;
-        protected TextView tv_name;
-
-
-        public CustomViewHolder(@NonNull View itemView) {
-            super(itemView);
-            this.iv_profile = (ImageView) itemView.findViewById(R.id.iv_profile);
-            this.tv_name = (TextView) itemView.findViewById(R.id.tv_name);
-        }
-    }
 }
