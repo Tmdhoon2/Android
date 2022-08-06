@@ -16,7 +16,6 @@ import java.util.ArrayList;
 
 public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHolder>{                                    // Adapter
 
-    private ListItemBinding binding;                                                                                    // Binding
     private ArrayList<MainData> arrayList;                                                                              // Itemlist
     public MainAdapter(ArrayList<MainData> arrayList) {
         this.arrayList = arrayList;
@@ -40,7 +39,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHold
         holder.tv_name.setText(arrayList.get(position).getTv_name());
 
         holder.itemView.setTag(position);
-        holder.itemView.setOnClickListener(new View.OnClickListener() {
+         holder.itemView.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
