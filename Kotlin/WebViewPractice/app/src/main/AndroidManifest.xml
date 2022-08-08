@@ -6,8 +6,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/minepage"
-        android:label="마인페이지"
+        android:icon="@drawable/velog"
+        android:label="Velog"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WebViewPractice" >

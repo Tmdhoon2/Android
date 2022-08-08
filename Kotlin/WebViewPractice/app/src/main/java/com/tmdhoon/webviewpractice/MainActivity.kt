@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         myWebView.addJavascriptInterface(WebAppInterface(this), "Android")
 
 
-        myWebView.loadUrl("https://mine.page/")                        // url 불러오기
+        myWebView.loadUrl("https://velog.io/")                        // url 불러오기
         myWebView.webViewClient = WebViewClient()                          // 앱안에서만 WebView가 실행되게 만드는 코드 (WebViewClient 사용)
     }
 
