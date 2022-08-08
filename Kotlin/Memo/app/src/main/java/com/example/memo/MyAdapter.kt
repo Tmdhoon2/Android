@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
 
-class MyAdapter(val context: Context, var list: List<MemoEntity>) : RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
+class MyAdapter(val context: Context, var list: List<MemoEntity>, var onDeleteListener: OnDeleteListener) : RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
     class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val memo = itemView.findViewById<TextView>(R.id.tvmemo)
     }
@@ -24,7 +24,7 @@ class MyAdapter(val context: Context, var list: List<MemoEntity>) : RecyclerView
         holder.memo.text = memo.memo
         holder.itemView.setOnLongClickListener(object : View.OnLongClickListener{
             override fun onLongClick(p0: View?): Boolean {
-
+                    onDeleteListener.onDeleteListener(memo)
                 return true
             }
         })

@@ -9,7 +9,7 @@ import com.example.memo.databinding.ActivityMainBinding
 import java.nio.channels.AsynchronousByteChannel
 
 @SuppressLint("StaticFieldLeak")
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), OnDeleteListener {
 
     private lateinit var binding:ActivityMainBinding
 
@@ -34,6 +34,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.recyclerview.layoutManager = LinearLayoutManager(this)
+
+        getAllMemos()
 
     }
 
@@ -76,11 +78,26 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun deleteMemo(){
+    fun deleteMemo(memo: MemoEntity){
+        val deleteTask = object : AsyncTask<Unit, Unit, Unit>(){
+            override fun doInBackground(vararg p0: Unit?) {
+                db.memoDAO().delete(memo)
+            }
 
+            override fun onPostExecute(result: Unit?) {
+                super.onPostExecute(result)
+                getAllMemos()
+            }
+        }
+
+        deleteTask.execute()
     }
 
     fun setRecycelrView(memoList: List<MemoEntity>){
-        binding.recyclerview.adapter = MyAdapter(this, memoList)
+        binding.recyclerview.adapter = MyAdapter(this, memoList,this)
+    }
+
+    override fun onDeleteListener(memo: MemoEntity) {
+        deleteMemo(memo )
     }
 }
