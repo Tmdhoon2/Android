@@ -1,6 +1,6 @@
 package com.example.recyclerviewkt
 
-    import android.text.Layout
+import android.text.Layout
     import android.view.LayoutInflater
     import android.view.View
     import android.view.ViewGroup
@@ -12,6 +12,13 @@ package com.example.recyclerviewkt
 
 class ProfileAdapter(val profileList : ArrayList<Profiles>) : RecyclerView.Adapter<ProfileAdapter.CustomViewHolder>() {                                     // Main Adpater
 
+    class CustomViewHolder(itemView:View) : RecyclerView.ViewHolder(itemView) {
+        val gender = itemView.findViewById<ImageView>(R.id.iv_profile) // 성별
+        val name = itemView.findViewById<TextView >(R.id.tv_name) // 이름
+        val job = itemView.findViewById<TextView>(R.id.tv_major) // 직업
+        val age = itemView.findViewById<TextView>(R.id.tv_age) // 나이
+
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProfileAdapter.CustomViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent, false)
@@ -20,9 +27,7 @@ class ProfileAdapter(val profileList : ArrayList<Profiles>) : RecyclerView.Adapt
                 val curPos : Int = adapterPosition
                 val profile : Profiles = profileList.get(curPos)
                 Toast.makeText(parent.context, "이름 : ${profile.name}\n학번 : ${profile.age}\n직업 : ${profile.job}", Toast.LENGTH_SHORT). show()
-
             }
-
         }
     }
 
@@ -36,14 +41,4 @@ class ProfileAdapter(val profileList : ArrayList<Profiles>) : RecyclerView.Adapt
     override fun getItemCount(): Int {
         return profileList.size
     }
-
-    class CustomViewHolder(itemView:View) : RecyclerView.ViewHolder(itemView) {
-        val gender = itemView.findViewById<ImageView>(R.id.iv_profile) // 성별
-        val name = itemView.findViewById<TextView>(R.id.tv_name) // 이름
-        val job = itemView.findViewById<TextView>(R.id.tv_major) // 직업
-        val age = itemView.findViewById<TextView>(R.id.tv_age) // 나이
-
-    }
-
-
 }

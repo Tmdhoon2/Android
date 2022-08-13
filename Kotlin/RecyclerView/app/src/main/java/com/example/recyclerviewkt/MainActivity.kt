@@ -2,12 +2,12 @@ package com.example.recyclerviewkt
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recyclerviewkt.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,11 +33,13 @@ class MainActivity : AppCompatActivity() {
             Profiles(R.drawable.profile, "조문성", 1215, "정보보안"),
             Profiles(R.drawable.woman, "대전", 1216, "안드로이드"),
             Profiles(R.drawable.woman, "한예슬", 1217, "프론트엔드"),
-            Profiles(R.drawable.profile, "코코몽", 1218, "ios"),
+            Profiles(R.drawable.profile, "코코몽", 1218, "ios")
         )
+
         binding.rvProfile.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         binding.rvProfile.setHasFixedSize(true)
 
         binding.rvProfile.adapter = ProfileAdapter(profilelist)
+
     }
 }

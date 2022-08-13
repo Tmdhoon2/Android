@@ -1,5 +1,6 @@
 package com.tmdhoon.recyclerviewjava;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,11 +18,6 @@ import java.util.List;
 
 public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHolder>{
 
-<<<<<<< HEAD
-    private ArrayList<MainData> arrayList;                                                                              // Itemlist
-    public MainAdapter(ArrayList<MainData> arrayList) {
-        this.arrayList = arrayList;
-=======
     private List<MainData> list;
 
     public MainAdapter(List<MainData> list) {
@@ -36,7 +32,6 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHold
             super(itemView);
             tvContent = itemView.findViewById(R.id.tvContent);
         }
->>>>>>> main
     }
 
     @NonNull
@@ -50,26 +45,8 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHold
 
     @Override
     public void onBindViewHolder(@NonNull CustomViewHolder holder, int position) {
-
-<<<<<<< HEAD
-        holder.iv_profile.setImageResource(arrayList.get(position).getIv_profile());
-        holder.tv_name.setText(arrayList.get(position).getTv_name());
-
-        holder.itemView.setTag(position);
-         holder.itemView.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                String curName = holder.tv_name.getText().toString();
-                Toast.makeText(view.getContext(), curName, Toast.LENGTH_SHORT).show();
-            }
-        });
-=======
         holder.tvContent.setText(list.get(position).getContent());
->>>>>>> main
-
         holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
-
             @Override
             public boolean onLongClick(View view) {
                 list.remove(position);
@@ -77,6 +54,15 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.CustomViewHold
                 return true;
             }
         });
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), MainActivity2.class);
+                view.getContext().startActivity(intent);
+            }
+        });
+
     }
 
     @Override

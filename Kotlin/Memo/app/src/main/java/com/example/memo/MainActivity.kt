@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity(), OnDeleteListener {
 
     private lateinit var binding:ActivityMainBinding
 
-    lateinit var db : MemoDatabase
+    lateinit var db:MemoDatabase
     var memoList = listOf<MemoEntity>()
 
 
@@ -23,11 +23,11 @@ class MainActivity : AppCompatActivity(), OnDeleteListener {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        db = MemoDatabase.getInstatnce(this)!!
+        db = MemoDatabase.getInstatnce(this)!!      /// 데이터베이스 획득
 
         binding.btAdd.setOnClickListener{
 
-            val memo = MemoEntity(null, binding.etMemo.text.toString())
+            val memo = MemoEntity(null, binding.etMemo.text.toString())     // 메모 변수에 메모를 담는다
             insertMemo(memo)
 
             binding.etMemo.setText("")
@@ -44,17 +44,17 @@ class MainActivity : AppCompatActivity(), OnDeleteListener {
     //3. Delete Data
     //4. Set RecyclerView
 
-    fun insertMemo(memo : MemoEntity){
+    fun insertMemo(memo : MemoEntity){                              // Insert
         //1. MainThread vs WorkerThread(Background Thread)
 
         val insertTask = object : AsyncTask<Unit,Unit,Unit>(){
-            override fun doInBackground(vararg p0: Unit?) {
-                db.memoDAO().insert(memo)
+            override fun doInBackground(vararg p0: Unit?) {         // onBackground
+                db.memoDAO().insert(memo)                           // Add memo
             }
 
-            override fun onPostExecute(result: Unit?) {
+            override fun onPostExecute(result: Unit?) {             // execute
                 super.onPostExecute(result)
-                getAllMemos()
+                getAllMemos()                                       // Get Data
             }
 
         }
@@ -64,10 +64,10 @@ class MainActivity : AppCompatActivity(), OnDeleteListener {
 
 
 
-    fun getAllMemos(){
+    fun getAllMemos(){                                              //Get
         val getTask = (object : AsyncTask<Unit, Unit, Unit>(){
             override fun doInBackground(vararg p0: Unit?) {
-                memoList = db.memoDAO().getAll()
+                memoList = db.memoDAO().getAll()                    // List
             }
 
             override fun onPostExecute(result: Unit?) {
@@ -98,6 +98,6 @@ class MainActivity : AppCompatActivity(), OnDeleteListener {
     }
 
     override fun onDeleteListener(memo: MemoEntity) {
-        deleteMemo(memo )
+        deleteMemo(memo)
     }
 }
