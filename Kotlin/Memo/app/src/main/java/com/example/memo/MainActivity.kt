@@ -1,6 +1,7 @@
 package com.example.memo
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.AsyncTask
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -27,15 +28,19 @@ class MainActivity : AppCompatActivity(), OnDeleteListener {
 
         binding.btAdd.setOnClickListener{
 
-            val memo = MemoEntity(null, binding.etMemo.text.toString())     // 메모 변수에 메모를 담는다
-            insertMemo(memo)
-
+            if(binding.etMemo.text.toString() != "") {
+                val memo = MemoEntity(null, binding.etMemo.text.toString())     // 메모 변수에 메모를 담는다
+                insertMemo(memo)
+            }
             binding.etMemo.setText("")
         }
 
         binding.recyclerview.layoutManager = LinearLayoutManager(this)
 
         getAllMemos()
+
+        val intent = Intent(this, MemoDatabase::class.java)
+        
 
     }
 
@@ -56,9 +61,7 @@ class MainActivity : AppCompatActivity(), OnDeleteListener {
                 super.onPostExecute(result)
                 getAllMemos()                                       // Get Data
             }
-
         }
-
         insertTask.execute()
     }
 

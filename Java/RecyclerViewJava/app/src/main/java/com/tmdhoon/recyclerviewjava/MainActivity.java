@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 list.add(new MainData(binding.etInput.getText().toString()));
                 mainAdapter.notifyDataSetChanged();
+                binding.etInput.setText("");
             }
         });
 

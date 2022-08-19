@@ -39,6 +39,8 @@ class MainActivity : AppCompatActivity() {
         binding.rvProfile.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         binding.rvProfile.setHasFixedSize(true)
 
+
+
         binding.rvProfile.adapter = ProfileAdapter(profilelist)
 
     }
