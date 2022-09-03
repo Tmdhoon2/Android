@@ -1,0 +1,21 @@
+## MVP
+
+Model : 데이터, Presenter를 통해 View와 분리한 MVP 패턴 구현
+    -> Model, Response, Request
+
+View : 화면 표시 및 사용자 이벤트 Presenter 에게 전달해서 처리를 위임
+    -> Activity
+
+Presenter : View - Model 사이 매개체 (View로부터 받은 이벤트를 처리하고 Model을 업데이트)
+    -> Presenter
+
+----------------------------------------------------------------------------------------------------
+
+Contract : View - Presenter간의 사용할 이벤트를 정의한 인터페이스
+    -> Interface
+
+Adapters : REST API 로 받아온 사용자 목록을 보여줄 RecyclerView를 관리하는 Adapter
+    -> RecyclerView Adapter
+
+Network : Retrofit REST 메서드 정의 인터페이스 + Client 구현
+    -> ServerApi, ApiProvider
