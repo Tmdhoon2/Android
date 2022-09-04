@@ -9,17 +9,16 @@ public interface UserListContract {
 
     // Model 인터페이스
     interface Model {
+        // Presenter 구현
         interface onFinishedListener {
-            void onFinished(List<User> users);
-
-            void onFailure(String errorMsg);
+            void onFinished(List<User> users);  // 통신 성공 시 사용
         }
 
-
-        void getUserList(onFinishedListener onFinishedListener);
+        // Model 구현 & Presenter 호출
+       void getUserList(onFinishedListener onFinishedListener);
     }
 
-    // View 인터페이스
+    // View 인터페이스 & Presenter 호출
     interface View {
         void showProgress();
 
@@ -30,7 +29,7 @@ public interface UserListContract {
         void onResponseFailure(String errorMsg);
     }
 
-    // Presenter 인터페이스
+    // Presenter 인터페이스 & View 호출
     interface Presenter {
         void onDestroy();
 

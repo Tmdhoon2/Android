@@ -11,15 +11,13 @@ public interface UserAdapterContract {
 
     // Adapter 의 View
     interface View{
-        void notifyAdapter();
+        void notifyAdapter();   // Ui Update
 
-        void setOnClickListener(OnItemClick clickListener);
+        void setOnClickListener(OnItemClick clickListener);     // Adapter Click Listener
     }
 
     // Adapter 의 Model
     interface Model{
-        void setData(List<User> users);
-
-        User user(int position);
+        void setData(List<User> users);     // Adapter Data Update
     }
 }

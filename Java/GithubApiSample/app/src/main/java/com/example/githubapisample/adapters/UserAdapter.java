@@ -19,6 +19,7 @@ import com.example.githubapisample.model.User;
 
 import java.util.List;
 
+// UserAdapterContract 상속
 public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> implements UserAdapterContract.View, UserAdapterContract.Model {
 
     private Context context;
@@ -72,11 +73,6 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> im
     @Override
     public void setData(List<User> users) {
         this.users = users;
-    }
-
-    @Override
-    public User user(int position) {
-        return users.get(position);
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
