@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:weightSum="5">
+
+
+    <ImageView
+        android:id="@+id/user_image"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:src="@mipmap/ic_launcher"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3.5"
+        android:orientation="vertical"
+        android:paddingLeft="20dp">
+
+        <ImageView
+            android:id="@+id/ic_name"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_name"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintBottom_toBottomOf="@id/ic_name"
+            app:layout_constraintLeft_toRightOf="@id/ic_name"
+            tools:text="posth2071" />
+
+        <ImageView
+            android:id="@+id/ic_location"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_location"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ic_name" />
+
+        <TextView
+            android:id="@+id/user_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintBottom_toBottomOf="@id/ic_location"
+            app:layout_constraintLeft_toRightOf="@id/ic_location"
+            tools:text="posth2071" />
+
+        <ImageView
+            android:id="@+id/ic_blog"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_blog"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ic_location" />
+
+        <TextView
+            android:id="@+id/user_blog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintBottom_toBottomOf="@id/ic_blog"
+            app:layout_constraintLeft_toRightOf="@id/ic_blog"
+            tools:text="posth2071" />
+
+        <ImageView
+            android:id="@+id/ic_follower"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_follower"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ic_blog" />
+
+        <TextView
+            android:id="@+id/user_follower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintBottom_toBottomOf="@id/ic_follower"
+            app:layout_constraintLeft_toRightOf="@id/ic_follower"
+            tools:text="1025" />
+
+        <ImageView
+            android:id="@+id/ic_following"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/ic_follower"
+            app:layout_constraintLeft_toRightOf="@id/ic_follower"
+            app:layout_constraintTop_toTopOf="@+id/ic_follower" />
+
+        <TextView
+            android:id="@+id/user_following"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintBottom_toBottomOf="@id/ic_following"
+            app:layout_constraintLeft_toRightOf="@id/ic_following"
+            tools:text="222" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
