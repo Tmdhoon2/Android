@@ -1,12 +1,18 @@
 package com.example.githubapisample.contract;
 
+import com.example.githubapisample.model.User;
+import com.example.githubapisample.model.UserList;
+
+import java.util.List;
+
 public interface UserListContract {
 
     // Model 인터페이스
-    interface Model{
-        interface onFinishedListener{
-            void onFinished(List<Users> users);
-            void onFailure(Throwable throwable);
+    interface Model {
+        interface onFinishedListener {
+            void onFinished(List<User> users);
+
+            void onFailure(String errorMsg);
         }
 
 
@@ -21,11 +27,11 @@ public interface UserListContract {
 
         void showToast(String message);
 
-        void onResponseFailure(Throwable throwable);
+        void onResponseFailure(String errorMsg);
     }
 
     // Presenter 인터페이스
-    interface Presenter{
+    interface Presenter {
         void onDestroy();
 
         void requestDataFromServer();
@@ -34,5 +40,4 @@ public interface UserListContract {
 
         void setUserAdapterView(UserAdapterContract.View view);
     }
-
 }

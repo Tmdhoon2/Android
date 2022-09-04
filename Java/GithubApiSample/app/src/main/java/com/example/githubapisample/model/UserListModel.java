@@ -17,7 +17,7 @@ import retrofit2.Response;
 
 public class UserListModel implements UserListContract.Model {
 
-    private final String GITHUB_TOKEN = "token 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";
+    private final String GITHUB_TOKEN = "token";
 
     List<User> users = new ArrayList<>();
     int count = 0;
@@ -47,7 +47,7 @@ public class UserListModel implements UserListContract.Model {
                                 if(response.isSuccessful()){
                                     users.add(response.body());
                                     if(count == 0){
-                                        onFinishedListener.onFinished(userLists);
+                                        onFinishedListener.onFinished(users);
                                     }
                                 }
                             }

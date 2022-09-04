@@ -2,6 +2,10 @@ package com.example.githubapisample.contract;
 
 import android.widget.AdapterView;
 
+import com.example.githubapisample.model.User;
+
+import java.util.List;
+
 // Adapter contract
 public interface UserAdapterContract {
 
