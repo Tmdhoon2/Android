@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.databinding"
+    package="com.tmdhoon.databinding"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -20,9 +20,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.DataBinding" >
+        android:theme="@style/Theme.Databinding" >
         <activity
-            android:name="com.example.databinding.MainActivity"
+            android:name="com.tmdhoon.databinding.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name="com.tmdhoon.databinding.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,16 +35,10 @@
         </activity>
 
         <provider
-            android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.databinding.androidx-startup"
-            android:exported="false" >
-            <meta-data
-                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-                android:value="androidx.startup" />
-            <meta-data
-                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-                android:value="androidx.startup" />
-        </provider>
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.tmdhoon.databinding.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

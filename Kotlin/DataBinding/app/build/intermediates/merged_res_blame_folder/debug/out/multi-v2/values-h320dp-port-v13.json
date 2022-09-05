@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.databinding.app-mergeDebugResources-26:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.tmdhoon.databinding.app-mergeDebugResources-21:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hks02\\.gradle\\caches\\transforms-3\\5ecf78887d09c8d5772bfd0d13860753\\transformed\\material-1.6.1\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\DSM2022\\.gradle\\caches\\transforms-3\\3dcbe39d608cfb7880301c1240f44bdd\\transformed\\material-1.4.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

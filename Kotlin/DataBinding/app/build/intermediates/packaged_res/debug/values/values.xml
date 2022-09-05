@@ -7,8 +7,8 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">DataBinding</string>
-    <style name="Theme.DataBinding" parent="Theme.AppCompat.Light.NoActionBar">
+    <string name="app_name">Databinding</string>
+    <style name="Theme.Databinding" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

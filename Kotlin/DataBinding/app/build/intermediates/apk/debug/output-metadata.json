@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.databinding",
+  "applicationId": "com.tmdhoon.databinding",
   "variantName": "debug",
   "elements": [
     {

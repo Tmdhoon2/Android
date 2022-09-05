@@ -1,255 +1,232 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:2:1-27:12
-MERGED from [androidx.databinding:databinding-adapters:7.2.1] C:\Users\hks02\.gradle\caches\transforms-3\b48f9f10c9f5bf88d5175e09b9abbd46\transformed\databinding-adapters-7.2.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.databinding:databinding-ktx:7.2.1] C:\Users\hks02\.gradle\caches\transforms-3\1dc58e778fcd0b65913b12979f3938ef\transformed\databinding-ktx-7.2.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.databinding:databinding-runtime:7.2.1] C:\Users\hks02\.gradle\caches\transforms-3\47a7f3042e0e4963563b7ef306c1d093\transformed\databinding-runtime-7.2.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\hks02\.gradle\caches\transforms-3\8d0c9d212fd8610236b904cc15dd0187\transformed\viewbinding-7.2.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\hks02\.gradle\caches\transforms-3\906a10f6802c007a4f28cf07c0c7f539\transformed\core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.material:material:1.6.1] C:\Users\hks02\.gradle\caches\transforms-3\5ecf78887d09c8d5772bfd0d13860753\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hks02\.gradle\caches\transforms-3\d10fa956e3e1e972ef741daddd482118\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\hks02\.gradle\caches\transforms-3\b337e567a97552d20c2e1a823a166141\transformed\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\hks02\.gradle\caches\transforms-3\9c2895602df13aa95841819f6ae6231a\transformed\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\b21563da47180506db13722efebc328b\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\hks02\.gradle\caches\transforms-3\ea075dd47c7da4481afea15d1d3352bb\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\hks02\.gradle\caches\transforms-3\01a27ee0ecde020c9756c0209ee83838\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\hks02\.gradle\caches\transforms-3\318e8dd35bc8458bc3614f9c7d91ccdc\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\3b090cd86af29e42b81b689440b3c687\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\734f58e2c86c6d5146967ec2afef1295\transformed\emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\hks02\.gradle\caches\transforms-3\8f4c073ecf2da2d548ca80179dc886f0\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\7d4dfcbcc6318871e70910899c29f8df\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\5c06be9e9589ad61ae1aa02f1516eb30\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\hks02\.gradle\caches\transforms-3\8150d060fc4db336eb906138fa29b9c8\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\425938ecbeccc11c3430581ad83be1b9\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\b640f6972c3a5581c2ed74dc8a31e8af\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\5f6bce248354caebdb0537d0d522a083\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\7c2a69963f268b347cc286e5cbaa794a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\62fe94634af4c7176027a843a248a0b7\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\fbbc0fb91038fba298d872259220f060\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\5c8002889b6801d63ca159a2286006e4\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.7.0] C:\Users\hks02\.gradle\caches\transforms-3\d409417959c78fbf29d76ceae9660126\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\hks02\.gradle\caches\transforms-3\c5c15dcfb7e61189a83cfb22dff8ce76\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\hks02\.gradle\caches\transforms-3\a2ea85986010c54934b9746c72042a92\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\647c1e081ff4bc82028f4a31ac59770a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\f626d5b837f0a6b815118a9e28200c6f\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\6de693277c097c9086fa65024ed77b38\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\hks02\.gradle\caches\transforms-3\0dfd44004b739f30bf64dc86b4950030\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\hks02\.gradle\caches\transforms-3\12b9d4b588d77d898482744eb14f6279\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\hks02\.gradle\caches\transforms-3\154c37c46fe3a259e5d9bdc9e25b2c57\transformed\lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hks02\.gradle\caches\transforms-3\6678309a7758632c841a28fcb65493d4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\hks02\.gradle\caches\transforms-3\c3e1dd879e67f8b175269e5ca77c735f\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\hks02\.gradle\caches\transforms-3\38858dedb5c4483b6af1a1eea17bce95\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hks02\.gradle\caches\transforms-3\94d5455906c8df34755a223e04bb7343\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\b8c1dd994e234fe0d4cb0976aa6621cc\transformed\startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\a63ae1a3fde1ca2cdc0f12823bde43ce\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\0423c5e6d4ab6860aa8181d77b78be44\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\6917b917f46acc225f80c644a8b10e80\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\62e158e431b90e31f1313fb92114e5fb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\9eac3243e07281a6c670785baad86a60\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\d8aa656daa174b0958e1c0b998436d42\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:2:1-30:12
+MERGED from [androidx.databinding:databinding-adapters:7.2.1] C:\Users\DSM2022\.gradle\caches\transforms-3\3883c9b1d9a2ccfb31fbdd92161ff143\transformed\databinding-adapters-7.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-ktx:7.2.1] C:\Users\DSM2022\.gradle\caches\transforms-3\ffe1b45e48156688a84ae35da271c9cf\transformed\databinding-ktx-7.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:7.2.1] C:\Users\DSM2022\.gradle\caches\transforms-3\5082be3fcb4d3a71c6bba6b7cd85008d\transformed\databinding-runtime-7.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\DSM2022\.gradle\caches\transforms-3\fb995b942b56858f90135c5b4992faaf\transformed\viewbinding-7.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\DSM2022\.gradle\caches\transforms-3\851acd6964a520e40bc29f55df83b905\transformed\core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\DSM2022\.gradle\caches\transforms-3\3dcbe39d608cfb7880301c1240f44bdd\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\DSM2022\.gradle\caches\transforms-3\79fe12a103b189f72be5b9f56c3b01f0\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\DSM2022\.gradle\caches\transforms-3\418213e2dc50ef16e0b04280e4dc13c0\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\5bd501e9533159762caedfae9f106484\transformed\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\9cb3a8b62a7d10910a7eacb21f093b19\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\DSM2022\.gradle\caches\transforms-3\dadcc181b01de31a597f783b6e38b55c\transformed\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\DSM2022\.gradle\caches\transforms-3\b362b61bdbb20b62fe48c0657c30f5b1\transformed\activity-1.2.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\DSM2022\.gradle\caches\transforms-3\a35ed35c1aeb56ff0cfa40f713046e5c\transformed\appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\96ef6d698a0fce6ab648b959b6c91a34\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\e18f7b8500da3961d3aecdeb52e3d638\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\d78e481b975e17612cce6578edee968a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\2f8d23eb07c626c96e64428ee94c758f\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\8a28f6fc7c86637ecb8b2eaa0814fb47\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\bbe2ef28165f1d8ec5540b4ad1b9dfc6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\8ece1a5450dc30815e1e80c220480ad0\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\3abadd16f595b3f8d3ca251cffc68293\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\1be282990ba7f1f2a4b0b02b2fd79d53\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\e7fdc0b9d7d5b512d4130098ebe75354\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\781ad85620b70c4bd0c19aa3d3780bda\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\DSM2022\.gradle\caches\transforms-3\ae9616d13e5213c0aa09c43a28ce0756\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\b36818cf1ba8e94133c3662831512c3d\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\0fe94235d91417baa750edf08a6f2a54\transformed\lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\DSM2022\.gradle\caches\transforms-3\1999a9b74342fa3b678201ab05b14f1c\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\DSM2022\.gradle\caches\transforms-3\657347d0773ba51ef1a4e12b6f169591\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\DSM2022\.gradle\caches\transforms-3\b4ae19b763abdbb67682b1bc5fc689f6\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\2b297142df10ee96f25c7e22f2d29278\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\a040099a6fb409b394f6f69a4d340b68\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\29c7a9421a874a743c5c959d414abb69\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\245c7ce68c6b2586b5e0792c6843bab5\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\DSM2022\.gradle\caches\transforms-3\2ed1f11932f558af4276e8d976e7dc0f\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\54cc6d9921cfe427d67a889cfb975249\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DSM2022\.gradle\caches\transforms-3\f72ec8c1212ab1337e686822dcea07a2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\d4ea9862e322b1a874b7f9e594020021\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\672676c0506c6d442e9db27fee4e6188\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\ff22b9e6a56b2c03d54a8edb1b7dda14\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\6aad9dcd3aa9bc4c076e45642ff37f7a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\41441b4c2106b5260e1152573c42cf87\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\7ab702f009a5c29a1baf9a1fb5794136\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:4:5-38
-		INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:6:5-25:19
-MERGED from [com.google.android.material:material:1.6.1] C:\Users\hks02\.gradle\caches\transforms-3\5ecf78887d09c8d5772bfd0d13860753\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.material:material:1.6.1] C:\Users\hks02\.gradle\caches\transforms-3\5ecf78887d09c8d5772bfd0d13860753\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hks02\.gradle\caches\transforms-3\d10fa956e3e1e972ef741daddd482118\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hks02\.gradle\caches\transforms-3\d10fa956e3e1e972ef741daddd482118\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\734f58e2c86c6d5146967ec2afef1295\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\734f58e2c86c6d5146967ec2afef1295\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.core:core:1.7.0] C:\Users\hks02\.gradle\caches\transforms-3\d409417959c78fbf29d76ceae9660126\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.7.0] C:\Users\hks02\.gradle\caches\transforms-3\d409417959c78fbf29d76ceae9660126\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hks02\.gradle\caches\transforms-3\6678309a7758632c841a28fcb65493d4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hks02\.gradle\caches\transforms-3\6678309a7758632c841a28fcb65493d4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hks02\.gradle\caches\transforms-3\94d5455906c8df34755a223e04bb7343\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hks02\.gradle\caches\transforms-3\94d5455906c8df34755a223e04bb7343\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\b8c1dd994e234fe0d4cb0976aa6621cc\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\b8c1dd994e234fe0d4cb0976aa6621cc\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:6:5-28:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\DSM2022\.gradle\caches\transforms-3\3dcbe39d608cfb7880301c1240f44bdd\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\DSM2022\.gradle\caches\transforms-3\3dcbe39d608cfb7880301c1240f44bdd\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\DSM2022\.gradle\caches\transforms-3\79fe12a103b189f72be5b9f56c3b01f0\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\DSM2022\.gradle\caches\transforms-3\79fe12a103b189f72be5b9f56c3b01f0\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.7.0] C:\Users\DSM2022\.gradle\caches\transforms-3\ae9616d13e5213c0aa09c43a28ce0756\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\DSM2022\.gradle\caches\transforms-3\ae9616d13e5213c0aa09c43a28ce0756\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\b36818cf1ba8e94133c3662831512c3d\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\b36818cf1ba8e94133c3662831512c3d\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DSM2022\.gradle\caches\transforms-3\f72ec8c1212ab1337e686822dcea07a2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DSM2022\.gradle\caches\transforms-3\f72ec8c1212ab1337e686822dcea07a2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.7.0] C:\Users\hks02\.gradle\caches\transforms-3\d409417959c78fbf29d76ceae9660126\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0] C:\Users\DSM2022\.gradle\caches\transforms-3\ae9616d13e5213c0aa09c43a28ce0756\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:11:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:9:9-54
 	android:roundIcon
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:12:9-54
 	tools:targetApi
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:15:9-29
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:15:9-29
 	android:icon
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:14:9-49
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:14:9-49
 	android:dataExtractionRules
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:8:9-65
-activity#com.example.databinding.MainActivity
-ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:16:9-24:20
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:8:9-65
+activity#com.tmdhoon.databinding.MainActivity2
+ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:16:9-18:40
 	android:exported
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:18:13-36
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:17:13-41
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:17:13-42
+activity#com.tmdhoon.databinding.MainActivity
+ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:19:9-27:20
+	android:exported
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:20:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml:25:27-74
 uses-sdk
-INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
-MERGED from [androidx.databinding:databinding-adapters:7.2.1] C:\Users\hks02\.gradle\caches\transforms-3\b48f9f10c9f5bf88d5175e09b9abbd46\transformed\databinding-adapters-7.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.databinding:databinding-adapters:7.2.1] C:\Users\hks02\.gradle\caches\transforms-3\b48f9f10c9f5bf88d5175e09b9abbd46\transformed\databinding-adapters-7.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.databinding:databinding-ktx:7.2.1] C:\Users\hks02\.gradle\caches\transforms-3\1dc58e778fcd0b65913b12979f3938ef\transformed\databinding-ktx-7.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.databinding:databinding-ktx:7.2.1] C:\Users\hks02\.gradle\caches\transforms-3\1dc58e778fcd0b65913b12979f3938ef\transformed\databinding-ktx-7.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.databinding:databinding-runtime:7.2.1] C:\Users\hks02\.gradle\caches\transforms-3\47a7f3042e0e4963563b7ef306c1d093\transformed\databinding-runtime-7.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.databinding:databinding-runtime:7.2.1] C:\Users\hks02\.gradle\caches\transforms-3\47a7f3042e0e4963563b7ef306c1d093\transformed\databinding-runtime-7.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\hks02\.gradle\caches\transforms-3\8d0c9d212fd8610236b904cc15dd0187\transformed\viewbinding-7.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\hks02\.gradle\caches\transforms-3\8d0c9d212fd8610236b904cc15dd0187\transformed\viewbinding-7.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\hks02\.gradle\caches\transforms-3\906a10f6802c007a4f28cf07c0c7f539\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\hks02\.gradle\caches\transforms-3\906a10f6802c007a4f28cf07c0c7f539\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.material:material:1.6.1] C:\Users\hks02\.gradle\caches\transforms-3\5ecf78887d09c8d5772bfd0d13860753\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.6.1] C:\Users\hks02\.gradle\caches\transforms-3\5ecf78887d09c8d5772bfd0d13860753\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hks02\.gradle\caches\transforms-3\d10fa956e3e1e972ef741daddd482118\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hks02\.gradle\caches\transforms-3\d10fa956e3e1e972ef741daddd482118\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\hks02\.gradle\caches\transforms-3\b337e567a97552d20c2e1a823a166141\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\hks02\.gradle\caches\transforms-3\b337e567a97552d20c2e1a823a166141\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\hks02\.gradle\caches\transforms-3\9c2895602df13aa95841819f6ae6231a\transformed\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\hks02\.gradle\caches\transforms-3\9c2895602df13aa95841819f6ae6231a\transformed\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\b21563da47180506db13722efebc328b\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\b21563da47180506db13722efebc328b\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\hks02\.gradle\caches\transforms-3\ea075dd47c7da4481afea15d1d3352bb\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\hks02\.gradle\caches\transforms-3\ea075dd47c7da4481afea15d1d3352bb\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\hks02\.gradle\caches\transforms-3\01a27ee0ecde020c9756c0209ee83838\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\hks02\.gradle\caches\transforms-3\01a27ee0ecde020c9756c0209ee83838\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\hks02\.gradle\caches\transforms-3\318e8dd35bc8458bc3614f9c7d91ccdc\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\hks02\.gradle\caches\transforms-3\318e8dd35bc8458bc3614f9c7d91ccdc\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\3b090cd86af29e42b81b689440b3c687\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\3b090cd86af29e42b81b689440b3c687\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\734f58e2c86c6d5146967ec2afef1295\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\734f58e2c86c6d5146967ec2afef1295\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\hks02\.gradle\caches\transforms-3\8f4c073ecf2da2d548ca80179dc886f0\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\hks02\.gradle\caches\transforms-3\8f4c073ecf2da2d548ca80179dc886f0\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\7d4dfcbcc6318871e70910899c29f8df\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\7d4dfcbcc6318871e70910899c29f8df\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\5c06be9e9589ad61ae1aa02f1516eb30\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\5c06be9e9589ad61ae1aa02f1516eb30\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\hks02\.gradle\caches\transforms-3\8150d060fc4db336eb906138fa29b9c8\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\hks02\.gradle\caches\transforms-3\8150d060fc4db336eb906138fa29b9c8\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\425938ecbeccc11c3430581ad83be1b9\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\425938ecbeccc11c3430581ad83be1b9\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\b640f6972c3a5581c2ed74dc8a31e8af\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\b640f6972c3a5581c2ed74dc8a31e8af\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\5f6bce248354caebdb0537d0d522a083\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\5f6bce248354caebdb0537d0d522a083\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\7c2a69963f268b347cc286e5cbaa794a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\7c2a69963f268b347cc286e5cbaa794a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\62fe94634af4c7176027a843a248a0b7\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\62fe94634af4c7176027a843a248a0b7\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\fbbc0fb91038fba298d872259220f060\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\fbbc0fb91038fba298d872259220f060\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\5c8002889b6801d63ca159a2286006e4\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\5c8002889b6801d63ca159a2286006e4\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.7.0] C:\Users\hks02\.gradle\caches\transforms-3\d409417959c78fbf29d76ceae9660126\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.7.0] C:\Users\hks02\.gradle\caches\transforms-3\d409417959c78fbf29d76ceae9660126\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\hks02\.gradle\caches\transforms-3\c5c15dcfb7e61189a83cfb22dff8ce76\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\hks02\.gradle\caches\transforms-3\c5c15dcfb7e61189a83cfb22dff8ce76\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\hks02\.gradle\caches\transforms-3\a2ea85986010c54934b9746c72042a92\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\hks02\.gradle\caches\transforms-3\a2ea85986010c54934b9746c72042a92\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\647c1e081ff4bc82028f4a31ac59770a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\647c1e081ff4bc82028f4a31ac59770a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\f626d5b837f0a6b815118a9e28200c6f\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\f626d5b837f0a6b815118a9e28200c6f\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\6de693277c097c9086fa65024ed77b38\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\6de693277c097c9086fa65024ed77b38\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\hks02\.gradle\caches\transforms-3\0dfd44004b739f30bf64dc86b4950030\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\hks02\.gradle\caches\transforms-3\0dfd44004b739f30bf64dc86b4950030\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\hks02\.gradle\caches\transforms-3\12b9d4b588d77d898482744eb14f6279\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\hks02\.gradle\caches\transforms-3\12b9d4b588d77d898482744eb14f6279\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\hks02\.gradle\caches\transforms-3\154c37c46fe3a259e5d9bdc9e25b2c57\transformed\lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\hks02\.gradle\caches\transforms-3\154c37c46fe3a259e5d9bdc9e25b2c57\transformed\lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hks02\.gradle\caches\transforms-3\6678309a7758632c841a28fcb65493d4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hks02\.gradle\caches\transforms-3\6678309a7758632c841a28fcb65493d4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\hks02\.gradle\caches\transforms-3\c3e1dd879e67f8b175269e5ca77c735f\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\hks02\.gradle\caches\transforms-3\c3e1dd879e67f8b175269e5ca77c735f\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\hks02\.gradle\caches\transforms-3\38858dedb5c4483b6af1a1eea17bce95\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\hks02\.gradle\caches\transforms-3\38858dedb5c4483b6af1a1eea17bce95\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hks02\.gradle\caches\transforms-3\94d5455906c8df34755a223e04bb7343\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hks02\.gradle\caches\transforms-3\94d5455906c8df34755a223e04bb7343\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\b8c1dd994e234fe0d4cb0976aa6621cc\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\b8c1dd994e234fe0d4cb0976aa6621cc\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\a63ae1a3fde1ca2cdc0f12823bde43ce\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\a63ae1a3fde1ca2cdc0f12823bde43ce\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\0423c5e6d4ab6860aa8181d77b78be44\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\0423c5e6d4ab6860aa8181d77b78be44\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\6917b917f46acc225f80c644a8b10e80\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\6917b917f46acc225f80c644a8b10e80\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\62e158e431b90e31f1313fb92114e5fb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\62e158e431b90e31f1313fb92114e5fb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\9eac3243e07281a6c670785baad86a60\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\9eac3243e07281a6c670785baad86a60\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\d8aa656daa174b0958e1c0b998436d42\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\hks02\.gradle\caches\transforms-3\d8aa656daa174b0958e1c0b998436d42\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:7.2.1] C:\Users\DSM2022\.gradle\caches\transforms-3\3883c9b1d9a2ccfb31fbdd92161ff143\transformed\databinding-adapters-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-adapters:7.2.1] C:\Users\DSM2022\.gradle\caches\transforms-3\3883c9b1d9a2ccfb31fbdd92161ff143\transformed\databinding-adapters-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-ktx:7.2.1] C:\Users\DSM2022\.gradle\caches\transforms-3\ffe1b45e48156688a84ae35da271c9cf\transformed\databinding-ktx-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-ktx:7.2.1] C:\Users\DSM2022\.gradle\caches\transforms-3\ffe1b45e48156688a84ae35da271c9cf\transformed\databinding-ktx-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-runtime:7.2.1] C:\Users\DSM2022\.gradle\caches\transforms-3\5082be3fcb4d3a71c6bba6b7cd85008d\transformed\databinding-runtime-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-runtime:7.2.1] C:\Users\DSM2022\.gradle\caches\transforms-3\5082be3fcb4d3a71c6bba6b7cd85008d\transformed\databinding-runtime-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\DSM2022\.gradle\caches\transforms-3\fb995b942b56858f90135c5b4992faaf\transformed\viewbinding-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\DSM2022\.gradle\caches\transforms-3\fb995b942b56858f90135c5b4992faaf\transformed\viewbinding-7.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\DSM2022\.gradle\caches\transforms-3\851acd6964a520e40bc29f55df83b905\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\DSM2022\.gradle\caches\transforms-3\851acd6964a520e40bc29f55df83b905\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\DSM2022\.gradle\caches\transforms-3\3dcbe39d608cfb7880301c1240f44bdd\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\DSM2022\.gradle\caches\transforms-3\3dcbe39d608cfb7880301c1240f44bdd\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\DSM2022\.gradle\caches\transforms-3\79fe12a103b189f72be5b9f56c3b01f0\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\DSM2022\.gradle\caches\transforms-3\79fe12a103b189f72be5b9f56c3b01f0\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\DSM2022\.gradle\caches\transforms-3\418213e2dc50ef16e0b04280e4dc13c0\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\DSM2022\.gradle\caches\transforms-3\418213e2dc50ef16e0b04280e4dc13c0\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\5bd501e9533159762caedfae9f106484\transformed\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\5bd501e9533159762caedfae9f106484\transformed\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\9cb3a8b62a7d10910a7eacb21f093b19\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\9cb3a8b62a7d10910a7eacb21f093b19\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\DSM2022\.gradle\caches\transforms-3\dadcc181b01de31a597f783b6e38b55c\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\DSM2022\.gradle\caches\transforms-3\dadcc181b01de31a597f783b6e38b55c\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\DSM2022\.gradle\caches\transforms-3\b362b61bdbb20b62fe48c0657c30f5b1\transformed\activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\DSM2022\.gradle\caches\transforms-3\b362b61bdbb20b62fe48c0657c30f5b1\transformed\activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\DSM2022\.gradle\caches\transforms-3\a35ed35c1aeb56ff0cfa40f713046e5c\transformed\appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\DSM2022\.gradle\caches\transforms-3\a35ed35c1aeb56ff0cfa40f713046e5c\transformed\appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\96ef6d698a0fce6ab648b959b6c91a34\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\96ef6d698a0fce6ab648b959b6c91a34\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\e18f7b8500da3961d3aecdeb52e3d638\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\e18f7b8500da3961d3aecdeb52e3d638\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\d78e481b975e17612cce6578edee968a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\d78e481b975e17612cce6578edee968a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\2f8d23eb07c626c96e64428ee94c758f\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\2f8d23eb07c626c96e64428ee94c758f\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\8a28f6fc7c86637ecb8b2eaa0814fb47\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\8a28f6fc7c86637ecb8b2eaa0814fb47\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\bbe2ef28165f1d8ec5540b4ad1b9dfc6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\bbe2ef28165f1d8ec5540b4ad1b9dfc6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\8ece1a5450dc30815e1e80c220480ad0\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\8ece1a5450dc30815e1e80c220480ad0\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\3abadd16f595b3f8d3ca251cffc68293\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\3abadd16f595b3f8d3ca251cffc68293\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\1be282990ba7f1f2a4b0b02b2fd79d53\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\1be282990ba7f1f2a4b0b02b2fd79d53\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\e7fdc0b9d7d5b512d4130098ebe75354\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\e7fdc0b9d7d5b512d4130098ebe75354\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\781ad85620b70c4bd0c19aa3d3780bda\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\781ad85620b70c4bd0c19aa3d3780bda\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] C:\Users\DSM2022\.gradle\caches\transforms-3\ae9616d13e5213c0aa09c43a28ce0756\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\DSM2022\.gradle\caches\transforms-3\ae9616d13e5213c0aa09c43a28ce0756\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\b36818cf1ba8e94133c3662831512c3d\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\b36818cf1ba8e94133c3662831512c3d\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\0fe94235d91417baa750edf08a6f2a54\transformed\lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\0fe94235d91417baa750edf08a6f2a54\transformed\lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\DSM2022\.gradle\caches\transforms-3\1999a9b74342fa3b678201ab05b14f1c\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\DSM2022\.gradle\caches\transforms-3\1999a9b74342fa3b678201ab05b14f1c\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\DSM2022\.gradle\caches\transforms-3\657347d0773ba51ef1a4e12b6f169591\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\DSM2022\.gradle\caches\transforms-3\657347d0773ba51ef1a4e12b6f169591\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\DSM2022\.gradle\caches\transforms-3\b4ae19b763abdbb67682b1bc5fc689f6\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\DSM2022\.gradle\caches\transforms-3\b4ae19b763abdbb67682b1bc5fc689f6\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\2b297142df10ee96f25c7e22f2d29278\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\2b297142df10ee96f25c7e22f2d29278\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\a040099a6fb409b394f6f69a4d340b68\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\a040099a6fb409b394f6f69a4d340b68\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\29c7a9421a874a743c5c959d414abb69\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\29c7a9421a874a743c5c959d414abb69\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\245c7ce68c6b2586b5e0792c6843bab5\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\245c7ce68c6b2586b5e0792c6843bab5\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\DSM2022\.gradle\caches\transforms-3\2ed1f11932f558af4276e8d976e7dc0f\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\DSM2022\.gradle\caches\transforms-3\2ed1f11932f558af4276e8d976e7dc0f\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\54cc6d9921cfe427d67a889cfb975249\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\54cc6d9921cfe427d67a889cfb975249\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DSM2022\.gradle\caches\transforms-3\f72ec8c1212ab1337e686822dcea07a2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DSM2022\.gradle\caches\transforms-3\f72ec8c1212ab1337e686822dcea07a2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\d4ea9862e322b1a874b7f9e594020021\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\d4ea9862e322b1a874b7f9e594020021\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\672676c0506c6d442e9db27fee4e6188\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\672676c0506c6d442e9db27fee4e6188\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\ff22b9e6a56b2c03d54a8edb1b7dda14\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\ff22b9e6a56b2c03d54a8edb1b7dda14\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\6aad9dcd3aa9bc4c076e45642ff37f7a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\6aad9dcd3aa9bc4c076e45642ff37f7a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\41441b4c2106b5260e1152573c42cf87\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\DSM2022\.gradle\caches\transforms-3\41441b4c2106b5260e1152573c42cf87\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\7ab702f009a5c29a1baf9a1fb5794136\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DSM2022\.gradle\caches\transforms-3\7ab702f009a5c29a1baf9a1fb5794136\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hks02\AndroidStudioProjects\DataBinding\app\src\main\AndroidManifest.xml
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\734f58e2c86c6d5146967ec2afef1295\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hks02\.gradle\caches\transforms-3\6678309a7758632c841a28fcb65493d4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hks02\.gradle\caches\transforms-3\6678309a7758632c841a28fcb65493d4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\b8c1dd994e234fe0d4cb0976aa6621cc\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\b8c1dd994e234fe0d4cb0976aa6621cc\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\734f58e2c86c6d5146967ec2afef1295\transformed\emoji2-1.0.0\AndroidManifest.xml:30:13-31
+		INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DSM2022\AndroidStudioProjects\Databinding\app\src\main\AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\b36818cf1ba8e94133c3662831512c3d\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\734f58e2c86c6d5146967ec2afef1295\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\b36818cf1ba8e94133c3662831512c3d\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\b36818cf1ba8e94133c3662831512c3d\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\734f58e2c86c6d5146967ec2afef1295\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\b36818cf1ba8e94133c3662831512c3d\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\734f58e2c86c6d5146967ec2afef1295\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\734f58e2c86c6d5146967ec2afef1295\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-	android:value
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\734f58e2c86c6d5146967ec2afef1295\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hks02\.gradle\caches\transforms-3\734f58e2c86c6d5146967ec2afef1295\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hks02\.gradle\caches\transforms-3\6678309a7758632c841a28fcb65493d4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hks02\.gradle\caches\transforms-3\6678309a7758632c841a28fcb65493d4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hks02\.gradle\caches\transforms-3\6678309a7758632c841a28fcb65493d4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\DSM2022\.gradle\caches\transforms-3\b36818cf1ba8e94133c3662831512c3d\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79

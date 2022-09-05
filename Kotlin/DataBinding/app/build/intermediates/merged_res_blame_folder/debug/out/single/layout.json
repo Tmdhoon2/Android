@@ -1,10 +1,14 @@
 [
     {
-        "merged": "com.example.databinding.app-mergeDebugResources-27:/layout/activity_main.xml",
-        "source": "com.example.databinding.app-main-30:/layout/activity_main.xml"
+        "merged": "com.tmdhoon.databinding.app-mergeDebugResources-22:/layout/list_item.xml",
+        "source": "com.tmdhoon.databinding.app-main-25:/layout/list_item.xml"
     },
     {
-        "merged": "C:\\Users\\hks02\\.gradle\\daemon\\7.3.3\\com.example.databinding.app-mergeDebugResources-27:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\hks02\\.gradle\\daemon\\7.3.3\\com.example.databinding.app-main-30:\\layout\\activity_main.xml"
+        "merged": "com.tmdhoon.databinding.app-mergeDebugResources-22:/layout/activity_main.xml",
+        "source": "com.tmdhoon.databinding.app-main-25:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.tmdhoon.databinding.app-mergeDebugResources-22:/layout/activity_main2.xml",
+        "source": "com.tmdhoon.databinding.app-main-25:/layout/activity_main2.xml"
     }
 ]
