@@ -2,16 +2,11 @@ package com.example.test
 
 interface Contract {
 
-    interface Model{
-        fun getUserInfo(model: UserInfo)
-    }
-
     interface View{
-        fun showUserInfo()
+        fun showResult(answer: Int)
     }
 
     interface Presenter{
-        fun requestInfo(name: String, pw : String)
+        fun addNum(num1 : Int, num2: Int)
     }
-
 }
