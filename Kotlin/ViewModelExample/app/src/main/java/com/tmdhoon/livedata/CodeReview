@@ -1,0 +1,8 @@
+## ViewModel 을 이용해서 버튼을 눌렀을때 증가하는 height 값을 textView에 띄워주는 예제
+
+## 순서
+
+버튼  -> height +1
+
+## ViewModel
+
