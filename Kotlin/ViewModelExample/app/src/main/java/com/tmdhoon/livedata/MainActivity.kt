@@ -23,14 +23,7 @@ class MainActivity : AppCompatActivity() {
         // xml 과 userViewModel 연결
         binding.user = userViewModel
 
-        // 옵저버로 객체 지정
-        val nameObserver = Observer<Int> { it ->
-            binding.textViewHeight.text = it.toString();
-        }
-
-        userViewModel.height.observe(this, nameObserver)
-
-        userViewModel.height.observe(this, Observer{
+        userViewModel._height.observe(this, Observer{
             binding.textViewHeight.text = it.toString()
         })
     }
