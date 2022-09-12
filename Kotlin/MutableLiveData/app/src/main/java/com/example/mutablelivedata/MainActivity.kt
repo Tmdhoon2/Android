@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var button4 : Button
     private lateinit var textView2 : TextView
 
-    private var liveData : MutableLiveData<String> = MutableLiveData()
-    private var liveData2 : MutableLiveData<String> = MutableLiveData()
+    var liveData : MutableLiveData<String> = MutableLiveData()
+    var liveData2 : MutableLiveData<String> = MutableLiveData()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
